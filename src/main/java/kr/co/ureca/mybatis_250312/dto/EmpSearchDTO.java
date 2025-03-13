@@ -7,14 +7,8 @@ import lombok.*;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmpDTO {
-    private String empno;
+public class EmpSearchDTO {
     private String ename;
     private String job;
-    private String mgr;
-    private String hiredate;
-    private String sal;
-    private String comm;
     private String deptno;
-
 }
